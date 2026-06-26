@@ -1,6 +1,6 @@
 {
-  "name": "Financial Calculators",
-  "description": "High-fidelity Groww-inspired Financial Calculators including SIP & Lumpsum, Personal Loan EMI, and Home Loan EMI calculators with responsive interactive charts and detailed monthly schedule tables.",
+  "name": "WealthCalc Financial Calculators",
+  "description": "High-fidelity WealthCalc Financial Calculators including SIP & Lumpsum, Personal Loan EMI, and Home Loan EMI calculators with responsive interactive charts, detailed monthly schedule tables, and a Google Search-grounded Copilot.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
