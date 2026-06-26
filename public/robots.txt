@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://financial.balajich.com/sitemap.xml
+Sitemap: https://finance.balajich.com/sitemap.xml

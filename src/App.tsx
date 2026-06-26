@@ -23,21 +23,21 @@ export default function App() {
   const navTabs = [
     {
       id: 'SIP_LUMPSUM' as CalculatorType,
-      label: 'SIP & Lumpsum',
+      label: 'SIP & Lumpsum Calculator',
       icon: TrendingUp,
-      description: 'Wealth multiplier & mutual fund returns',
+      description: 'SIP and Lumpsum mutual fund return calculator',
     },
     {
       id: 'PERSONAL_LOAN' as CalculatorType,
-      label: 'Personal Loan EMI',
+      label: 'Personal Loan EMI Calculator',
       icon: User,
-      description: 'Unsecured debt & installment calculation',
+      description: 'Unsecured personal loan installment calculator',
     },
     {
       id: 'HOME_LOAN' as CalculatorType,
-      label: 'Home Loan EMI',
+      label: 'Home Loan EMI Calculator',
       icon: Home,
-      description: 'Property mortgage & long-term schedule',
+      description: 'Home mortgage property loan scheduler',
     },
   ];
 
@@ -84,10 +84,10 @@ export default function App() {
         {/* Page Title & Slogan */}
         <div className="mb-8 text-center sm:text-left select-none" id="dashboard-hero-header">
           <h1 className="text-2xl md:text-3.5xl font-display font-extrabold text-slate-900 tracking-tight leading-tight">
-            Financial Calculator Suite
+            SIP, Lumpsum & Loan EMI Calculator Suite
           </h1>
           <p className="text-slate-500 text-xs md:text-sm mt-1.5 max-w-2xl font-sans leading-relaxed">
-            Plan your mutual fund investments, systematic deposits, or home and personal loan debt schedules with instant, precise visualizations and monthly breakdowns.
+            Free high-precision <strong className="font-semibold text-slate-800">SIP Calculator</strong>, <strong className="font-semibold text-slate-800">Lumpsum Compound Interest Calculator</strong>, <strong className="font-semibold text-slate-800">Home Loan EMI Calculator</strong>, and <strong className="font-semibold text-slate-800">Personal Loan Calculator</strong>. Plan investments and amortizations with instant interactive charts.
           </p>
         </div>
 
