@@ -60,12 +60,48 @@
       },
       {
         "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "Personal Loan EMI Calculator",
+        "@type": "PersonalLoan",
+        "name": "Personal Loan Calculator",
         "url": "https://finance.balajich.com",
-        "applicationCategory": "FinancialApplication",
-        "operatingSystem": "All",
         "description": "Calculate monthly installments, interest burden, and payoff period for unsecured personal bank loans."
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is a Systematic Investment Plan (SIP) and how does a SIP Calculator work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A Systematic Investment Plan (SIP) is a mutual fund investment method where you invest a fixed amount of money at regular intervals (such as weekly, monthly, or quarterly) rather than a lump sum. This instills financial discipline and utilizes rupee-cost averaging. Our free, interactive SIP Calculator helps you compute the future value of your monthly investments over your target timeline, demonstrating the compounding effect on mutual fund returns."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I calculate SIP mutual fund returns? What is the formula?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The future value of your systematic investment plan is calculated using the Future Value of Annuity formula: FV = P × [((1 + i)^n - 1) / i] × (1 + i), where 'FV' is the estimated future wealth, 'P' is the monthly investment amount, 'i' is the periodic rate of return (annual return rate divided by 12, then divided by 100), and 'n' is the total number of payments (tenure in years × 12). WealthCalc's SIP Calculator automates this complex compound interest calculation instantly."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does a Home Loan EMI Calculator work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A Home Loan EMI Calculator computes the equated monthly installment (EMI) needed to repay your property mortgage over a long tenure. It uses the standard amortization formula: EMI = [P × r × (1 + r)^n] / [(1 + r)^n - 1], where 'P' is the principal home loan amount, 'r' is the monthly interest rate (annual interest rate / 12 / 100), and 'n' is the tenure in months. WealthCalc provides a fully detailed, month-on-month amortization schedule so you can trace your outstanding balance, interest payable, and principal repayment splits."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How is a Personal Loan EMI computed?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A Personal Loan EMI uses the same reducing-balance amortizing loan formula as a home loan mortgage, but typically features shorter tenures (ranging from 12 to 60 months) and higher interest rates due to being unsecured. Our Personal Loan EMI Calculator lets you model different interest rates and durations to find an installment that perfectly aligns with your monthly disposable income."
+            }
+          }
+        ]
       }
     ]
     </script>
@@ -84,8 +120,9 @@
     <meta property="twitter:description" content="Simulate mutual fund wealth targets and loan repayments with premium tools and a live search-grounded co-pilot." />
 
     <!-- Custom High-Fidelity Favicon (Browser Tab Logo) -->
-    <!-- Beautiful deep slate block (#1C2D41) with emerald growth bars (#00D09C) and a white sparkling star -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='none'%3E%3Crect width='32' height='32' rx='8' fill='%231C2D41'/%3E%3Cpath d='M8 22h3v-4H8v4zm5 0h3v-8h-3v8zm5 0h3V10h-3v12zm5 0h3v-15h-3v15z' fill='%2300D09C'/%3E%3Ccircle cx='24.5' cy='7' r='2.5' fill='%23FFFFFF'/%3E%3Cpath d='M24.5 4v6M21.5 7h6' stroke='%23FFFFFF' stroke-width='1.2' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
   </head>
   <body>
     <div id="root"></div>
